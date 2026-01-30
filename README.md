@@ -20,13 +20,13 @@ Useful for:
 
 ## Quick Start
 
-Give Claude Code the contents of `install_prompt.md`. It will ask you questions (install location, Python environment, default launch flags) then set everything up. It may ask follow-up questions to clarify your preferences.
+In Claude Code, reference the install prompt and ask it to install:
 
 ```
-claude
-
-> [paste contents of install_prompt.md]
+> @install_prompt.md install this skill
 ```
+
+Claude will read the file and ask you questions about installation scope, Python environment, and default launch flags. It may ask follow-up questions to clarify your preferences.
 
 ## Manual Installation
 
@@ -47,6 +47,23 @@ cp lib/tmux-spawn.sh ~/.claude/lib/
 ```
 
 ## Usage
+
+You can invoke the skill with explicit flags or natural language. Both work.
+
+### Natural Language
+
+```
+"Spawn a tmux session called work"
+"Create a session named agent with Claude running in it"
+"I need 3 panes in a session called multi, put Claude in the first one"
+"Launch a background Claude agent in tmux that I can observe"
+"Kill the work session"
+"List my tmux sessions"
+```
+
+Claude will interpret these requests and invoke the skill with appropriate arguments.
+
+### Explicit Flags
 
 ```bash
 # Basic session

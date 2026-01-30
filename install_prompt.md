@@ -8,7 +8,7 @@ Spawns tmux sessions with optional Claude Code instances. Useful for background 
 
 ## Installation
 
-Use AskUserQuestion to gather user preferences. Call it as many times as needed to fully clarify requirements before proceeding.
+Use the AskUserQuestion tool to gather user preferences. Call it as many times as needed to fully clarify requirements before proceeding—there is no limit on follow-up questions. If an answer is ambiguous or incomplete, ask again.
 
 Questions to ask:
 

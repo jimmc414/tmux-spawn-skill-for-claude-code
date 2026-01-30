@@ -1,6 +1,8 @@
 ---
-description: Spawn tmux sessions with optional Claude Code instances
-argument-hint: <session-name> [--claude] [--panes N] [--prompt "..."] [--flags "..."] [--export "VAR=val"] [--kill] [--list]
+description: Spawn observable tmux sessions with optional Claude Code instances for background agents and parallel work
+when_to_use: "Use when: spawning background agents, creating parallel workspaces, launching observable Claude instances, managing tmux sessions. Triggers: tmux, spawn, background agent, parallel panes, observable session, launch claude in tmux, new terminal, split panes, watch claude work."
+when-to-use: "Use when: spawning background agents, creating parallel workspaces, launching observable Claude instances, managing tmux sessions. Triggers: tmux, spawn, background agent, parallel panes, observable session, launch claude in tmux, new terminal, split panes, watch claude work."
+argument-hint: "<session-name> [options] — or use natural language like 'spawn a session called work with 3 panes'"
 ---
 <!-- Python environment configured in lib/tmux-spawn.sh during installation -->
 
