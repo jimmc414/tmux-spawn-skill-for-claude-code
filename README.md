@@ -40,6 +40,9 @@ In Claude Code, reference the install prompt and ask it to install:
 
 Claude will read the file and ask you questions about installation scope, Python environment, and default launch flags. It may ask follow-up questions to clarify your preferences.
 
+<img width="1450" height="483" alt="image" src="https://github.com/user-attachments/assets/4fa742eb-7290-4984-87b9-b02480dee52f" />
+
+
 ## Manual Installation
 
 Copy files to your Claude config directory:
