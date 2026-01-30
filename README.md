@@ -2,6 +2,8 @@
 
 A Claude Code skill for spawning observable tmux sessions with optional Claude instances.
 
+![1768892788702](https://github.com/user-attachments/assets/e568cee9-3627-4521-944e-8b4353880029)
+
 ## Why
 
 Claude Code runs in your terminal. When it spawns background work or parallel agents, you can't see what's happening. This skill creates tmux sessions that automatically open an observer window, so you can watch Claude work in real-time.
