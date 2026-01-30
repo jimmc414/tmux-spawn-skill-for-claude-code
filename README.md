@@ -2,6 +2,10 @@
 
 A Claude Code skill for spawning observable tmux sessions with optional Claude instances.
 
+<img width="1872" height="621" alt="Screenshot 2026-01-30 120250" src="https://github.com/user-attachments/assets/1db5c5eb-900b-4a91-aa2a-0e6946f19597" />
+
+Also works with anything else you can run at the command line.
+
 ![1768892788702](https://github.com/user-attachments/assets/e568cee9-3627-4521-944e-8b4353880029)
 
 ## Why
