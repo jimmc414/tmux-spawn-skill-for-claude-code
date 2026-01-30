@@ -26,6 +26,11 @@ Useful for:
 
 ## Quick Start
 
+```bash
+git clone https://github.com/jimmc414/tmux-spawn-skill-for-claude-code
+```
+Or just copy the repo files anywhere locally
+
 In Claude Code, reference the install prompt and ask it to install:
 
 ```
